@@ -6,7 +6,7 @@
  Release Notes: using a composite class 
  *****************************************************************************/
 #include<iostream>
-#include "studentc.h"                           // must declear, because a function using Student as argument.
+#include "studentc.h"                           // must declare, because a function using Student as argument.
 using std::cin;
 using std::cout;
 using std::endl;
