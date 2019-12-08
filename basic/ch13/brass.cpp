@@ -22,7 +22,7 @@ void restore(format f, precis p);
 Brass::Brass(const string & s, long an, double bal)
 {
     fullName = s;
-    accNum = an;
+    acctNum = an;
     balance = bal;
 }
 
@@ -41,7 +41,7 @@ void Brass::Withdraw(double amt)
     format initialState = setFormat();
     precis prec = cout.precision(2);
 
-    if (amt == 0)
+    if (amt < 0)
         cout << "Withdrawal amout must be positive; "
              << "withdrawal cancelled.\n";
     else if (amt <= balance)
@@ -64,7 +64,7 @@ void Brass::ViewAcct() const
     format initialState = setFormat();
     precis prec = cout.precision(2);
     cout << "Client: " << fullName << endl;
-    cout << "Account Number: " << accNum << endl;
+    cout << "Account Number: " << acctNum << endl;
     cout << "Balance: $" << balance << endl;
     restore(initialState, prec); // restore original format
 }
