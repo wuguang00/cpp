@@ -21,7 +21,7 @@ class Stack                             // The class is a class and can't be rep
         bool isempty();
         bool isfull();
         bool push(const Type & item);   // add item to stack
-        bool pop(Type & item);   // add item to stack
+        bool pop(Type & item);          // pop top into item
 };
 
 template <class Type>
@@ -59,7 +59,7 @@ bool Stack<Type>::pop(Type & item)
 {
     if (top > 0)
     {
-        item = items[top--];            // the top and the array max index has 1 step.
+        item = items[--top];            // the top and the array max index has 1 step.
         return true;
     }
     else
