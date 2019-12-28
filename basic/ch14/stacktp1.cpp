@@ -10,7 +10,6 @@
 #include <ctime>                        // for time()
 #include "stacktp1.h"
 const int Num = 10;
-
 int main()
 {
     std::srand(std::time(0));           // randomize rand()
@@ -35,7 +34,7 @@ int main()
     while (processed < Num)
     {
         if (st.isempty())
-            st.push(in[nextin]);
+            st.push(in[nextin++]);
         else if (st.isfull())
             st.pop(out[processed++]);
         else if (std::rand() % 2 && nextin < Num)   // 50-50 chance
