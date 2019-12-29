@@ -3,7 +3,7 @@
  Author:        wuguang
  E-mail:        wuguang20084520@163.com
  Created Time:  Sat Dec 28 22:52:16 2019
- Release Notes: making a 2-d array 
+ Release Notes: making a 2-d array, iteration of the template.
  **************************************************************************/
 #include <iostream>
 #include "arraytp.h"
