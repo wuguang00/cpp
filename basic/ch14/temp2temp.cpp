@@ -3,7 +3,7 @@
  Author:        wuguang
  E-mail:        wuguang20084520@163.com
  Created Time:  Sun Dec 29 16:51:42 2019
- Release Notes: template friends to a template class 
+ Release Notes: template friends to a template class, they share the same typename.
  **************************************************************************/
 #include <iostream>
 using std::cout;

@@ -3,7 +3,7 @@
  Author:        wuguang
  E-mail:        wuguang20084520@163.com
  Created Time:  Sun Dec 29 17:36:53 2019
- Release Notes: unbound template friend to a template class 
+ Release Notes: unbound template friend to a template class, without constraint.
  **************************************************************************/
 #include <iostream>
 using std::cout;
