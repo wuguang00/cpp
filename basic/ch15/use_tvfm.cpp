@@ -3,7 +3,7 @@
  Author:        wuguang
  E-mail:        wuguang20084520@163.com
  Created Time:  Wed Jan  1 10:42:05 2020
- Release Notes: using the Tv and remote classes 
+ Release Notes: using the Tv and remote classes, compile with tvfm.cpp
  **************************************************************************/
 #include <iostream>
 #include "tvfm.h"

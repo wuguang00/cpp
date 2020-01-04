@@ -3,7 +3,7 @@
  Author:        wuguang
  E-mail:        wuguang20084520@163.com
  Created Time:  Wed Jan  1 10:11:02 2020
- Release Notes: methods for the Tv classes (Remote methods are inline) 
+ Release Notes: methods for the Tv classes (Remote methods are inline), compile with tv.cpp
  **************************************************************************/
 #include <iostream>
 #include "tvfm.h"
