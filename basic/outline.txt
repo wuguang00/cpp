@@ -1,3 +1,4 @@
+The codes are simulated by clang++ in MacOS.
 ch9  
 ch10 Done, reviewed again.
 ch11 Done, reviewed again.
